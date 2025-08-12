@@ -156,9 +156,9 @@ jobs:
         run: |
           sudo mkdir -p ${{ env.OUT_DIR }}
           sudo chown -R $USER:$USER ${{ env.OUT_DIR }}
-          sudo chmod -R 755 ${{ env.OUT_DIR }}
-          - name: Verify toolchain
-          run: |
+          sudo chmod -R 777 ${{ env.OUT_DIR }}
+      - name: Verify toolchain
+        run: |
           echo "=== Toolchain Verification ==="
           ${{ env.CC }}gcc --version
           ${{ env.CC }}as --version
