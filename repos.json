@@ -3,7 +3,7 @@
     "kernelSource": {
       "name": "QUJIkernel-sm6150",
       "repo": "https://github.com/ouroooo/android_kernel_xiaomi_sm6150",
-      "branch": "lineage-22.2",
+      "branch": "lineage-17.1",
       "device": "violet"
     },
     "withKernelSU": false,
